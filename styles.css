@@ -1,0 +1,34 @@
+body{
+    background-image:url(https://cdn.dribbble.com/users/763/screenshots/144235/super_mario.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#grass{
+        background-image:url(http://www.filterforge.com/filters/5117.jpg);    
+        margin:20px;
+        padding:20px;
+        background-repeat:repeat-x;
+        box-shadow: 0 0 8px 8px white inset;
+}
+
+#quiz{
+    background:rgba(127, 127, 127, 0.5);
+    border:solid black;
+    margin-bottom:20px;
+    padding:20px;
+}
+
+.answer{
+    border:double;
+    background:white;
+    overflow:hidden;
+    margin: 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.answer img{
+    height:500px;    
+}
